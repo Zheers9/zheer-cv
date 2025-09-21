@@ -1,0 +1,2 @@
+This is a placeholder file to ensure the public directory exists.
+Replace this with your actual hero.jpg image file.
