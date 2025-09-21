@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.25" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="Zheer Salam"><title>Zheer Salam — Portfolio & CV</title><meta name="description" content="Personal portfolio, CV, and professional showcase">
+    <link rel="preload" href="/zheer-cv/assets/style-CE6sL2TK.css" as="style"><link rel="stylesheet" href="/zheer-cv/assets/style-CE6sL2TK.css">
+    <link rel="modulepreload" href="/zheer-cv/assets/app-DG2QPHV8.js"><link rel="modulepreload" href="/zheer-cv/assets/404.html-ChrQZeuj.js">
+    <link rel="prefetch" href="/zheer-cv/assets/index.html-CfjauBrD.js" as="script"><link rel="prefetch" href="/zheer-cv/assets/index.html-CjR87OwZ.js" as="script"><link rel="prefetch" href="/zheer-cv/assets/index.html--NG7L1fY.js" as="script"><link rel="prefetch" href="/zheer-cv/assets/index.html-CmU75XAN.js" as="script"><link rel="prefetch" href="/zheer-cv/assets/index.html-rKjK03oA.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-33d3430e><main class="page" data-v-33d3430e><div vp-content data-v-33d3430e><h1 data-v-33d3430e>404</h1><blockquote data-v-33d3430e>There&#39;s nothing here.</blockquote><a class="route-link" href="/zheer-cv/" data-v-33d3430e>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/zheer-cv/assets/app-DG2QPHV8.js" defer></script>
+  </body>
+</html>
